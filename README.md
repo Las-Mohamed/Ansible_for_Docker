@@ -8,3 +8,6 @@ Installation de docker et d'un conteneur nginx via Ansible
 4) /roles/docker/vars/main.yaml, paramétrage des variables de nos tasks
 5) Création du playbook.yml qui orchestrera l'injection des applicatifs en fonction des machine cibles (alias)
 6) Executer le playbook "ansible-playbook playbook.yml -i inventaire.ini" ((-vvv) pour le mode debug)
+
+https://www.digitalocean.com/community/tutorials/how-to-use-ansible-to-install-and-set-up-docker-on-ubuntu-22-04
+https://www.linkedin.com/pulse/launch-configure-docker-container-using-shubham-rasal/
